@@ -1,0 +1,41 @@
+@media print {
+   .col .m1, .col .m2, .col .m3, .col .m4, .col .m5, .col .m6, .col .m7, .col .m8, .col .m9, .col .m10, .col .m11, .col .m12 {
+        float: left;
+   }
+   .col .m12 {
+        width: 100%;
+   }
+   .col .m11 {
+        width: 91.67%;
+   }
+   .col .m10 {
+        width: 83.33%;
+   }
+   .col .m9 {
+        width: 75%;
+   }
+   .col .m8 {
+        width: 66.67%;
+   }
+   .col .m7 {
+        width: 58.33%;
+   }
+   .col .m6 {
+        width: 50%;
+   }
+   .col .m5 {
+        width: 41.67%;
+   }
+   .col .m4 {
+        width: 33.33%;
+   }
+   .col .m3 {
+        width: 25%;
+   }
+   .col .m2 {
+        width: 16.67%;
+   }
+   .col .m1 {
+        width: 8.33%;
+   }
+}

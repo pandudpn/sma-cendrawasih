@@ -1,0 +1,13 @@
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #printKuisioner, #printKuisioner * {
+      visibility: visible;
+    }
+    #printKuisioner {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }

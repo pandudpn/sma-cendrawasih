@@ -1,0 +1,510 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background: #eaeaea;
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+	color: #000;
+	transition: .6s;
+	box-shadow: none;
+	height: 60px;
+}
+
+nav .nav-wrapper{
+	padding: 0 30px;
+	text-decoration: none;
+	list-style: none;
+	transition: .6s;
+}
+
+nav .nav-wrapper a img{
+	width: 330px;
+	height: 110px;
+	padding: 20px 50px;
+	transition: .6s;
+}
+
+nav ul{
+	line-height: 60px;
+	padding: 25px 80px;
+	text-decoration: none;
+	list-style: none;
+	transition: .6s;
+}
+
+nav ul li{
+	text-decoration: none;
+	list-style: none;
+	transition: .6s;
+}
+
+nav ul li.active{
+	background: none;
+	border: 1px solid rgba(255,0,0,.8);
+}
+
+nav ul li a{
+	text-decoration: none;
+	list-style: none;
+	padding: 0 35px;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	font-size: 16px;
+	font-weight: bold;
+	transition: .5s;
+}
+
+nav ul li a:hover{
+	background: rgba(255,0,0,.8);
+	color: #fff;
+	transition: .5s;
+	font-size: 20px;
+}
+
+nav.putih{
+	background: rgba(255,255,255,.83);
+	border-bottom: .5px solid rgba(0,0,0,.7);
+}
+
+nav.putih .nav-wrapper a img{
+	width: 250px;
+	height: 55px;
+	padding: 0 30px;
+}
+
+nav.putih ul{
+	line-height: 60px;
+	padding: 0;
+}
+
+nav.putih ul li.active{
+	background: none;
+	border: none;
+	border-bottom: 1px solid rgba(255,0,0,.8);
+}
+
+nav.putih ul li a{
+	padding: 0 30px;
+	font-size: 15px;
+	transition: .5s;
+	color: #000;
+	text-shadow: none;
+}
+
+nav.putih ul li a:hover{
+	transition: .5s;
+	font-size: 19px;
+	color: #fff;
+}
+
+.slider{
+	text-shadow: 2px 2px rgba(0,0,0,1);
+	z-index: -1;
+}
+
+#login{
+	margin-top: 610px;
+	height: 22px;
+	background: rgba(255,255,255,0.83);
+	z-index: 1;
+}
+
+#login .col.m1{
+	height: 22px;
+}
+
+#login .col.m2{
+	height: 22px;
+}
+
+#login span a{
+	color:#fff;
+}
+
+#login a.dropdown-button{
+	padding: 0 30px;
+	margin-right: -30px;
+}
+
+#login a.dropdown-button i{
+	margin-right: -8px;
+}
+
+
+#login span a:hover{
+	color: #000;
+}
+
+#loginModal{
+	width: 500px;
+}
+
+#loginModal .box{
+	border: .5px solid rgba(0,0,0,.25);
+	background: rgba(255,255,255,.5);
+	box-shadow: 1px 1px 6px 1px rgba(0,0,0,.5);
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.stickyy{
+	position: fixed;
+	top: -81%;
+	width: 100%;
+}
+
+#about{
+	min-height: 450px;
+	height: 20%;
+	text-align: justify;
+}
+
+hr{
+	width: 100px;
+}
+
+#bus{
+	min-height: 440px;
+	background: rgba(0,0,0,.8);
+}
+
+#bus .parallax-container{
+	height: 440px;
+}
+
+#bus .b-1{
+	border: 1px solid rgba(0,0,0,.8);
+	border-top: 5px solid rgba(255,0,0,1);
+	background: #fff;
+	border-radius: 10px;
+	margin-left: -20px;
+}
+
+#bus .b-2{
+	border: 1px solid rgba(0,0,0,.8);
+	border-top: 5px solid rgba(0,255,0,1);
+	background: #fff;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#bus .b-3{
+	border: 1px solid rgba(0,0,0,.8);
+	border-top: 5px solid rgba(0,0,255,1);
+	background: #fff;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+#bus .container hr{
+	width: auto;
+}
+
+#bus .container button{
+	margin-bottom: 10px;
+	z-index: 0;
+}
+
+#testi{
+	height: 480px;
+}
+
+#testi .box{
+	margin: 10px 70px;
+	border: 1px solid #fff;
+	background: #fff;
+	border-radius: 10px;
+	padding: 0 10px;
+	height: 350px;
+}
+
+#testi .box img{
+	margin-top: 10px;
+	border:1px solid #000;
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+}
+
+#testi .box .box-komentar{
+	margin-top: 15px;
+	border: 0.5px solid rgba(0,0,0,.3);
+	border-radius: 10px;
+	height: 320px;
+}
+
+#testi .box .box-komentar .nama{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#testi .box .box-komentar .komentar{
+	padding: 0 15px;
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#kalendar{
+	height: 300px;
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+}
+
+#kalendar h5{
+	padding-top: 30px;
+}
+
+#kalendar .parallax-container{
+	height: 300px;
+}
+
+#kalendar a, #reservasi a{
+	color: #fff;
+}
+
+#kalendar button{
+	letter-spacing: 5px;
+	box-shadow: none;
+	background: none;
+	border:1px solid #f44336;
+	transition: .5s;
+	width: 150px;
+}
+
+#kalendar button i, #reservasi button i{
+	opacity: 0;
+	display: inline;
+	transform: translate(-100%,0);
+	transition: .6s;
+}
+
+#kalendar button:hover{
+	background: #f44336;
+	transition: .5s;
+	width: 200px;
+}
+
+#kalendar button:hover i, #reservasi button:hover i{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: .6s;
+}
+
+#kontak{
+	height: 520px;
+	padding: 0 50px;
+}
+
+#kontak #map{
+	border:1px solid #fff;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px 1px rgba(0,0,0,.7);
+	margin-left: -20px;
+	height: 325px;
+	width: 100%;
+}
+
+#kontak button{
+	box-shadow: none;
+	background: none;
+	border: 1px solid #f44336;
+	color: #000;
+	width: 80px;
+	transition: .5s;
+}
+
+#kontak button:hover{
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,.3);
+	background: #f44336;
+	color: #fff;
+	width: 110px;
+	transition: .5s;
+}
+
+#kontak button i{
+	opacity: 0;
+	transform: translate(-100%, 0);
+	transition: .7s;
+	color: #fff;
+}
+
+#kontak button:hover i{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+footer{
+	height: 0%;
+	padding: 0 50px;
+}
+
+footer p{
+	margin-top: 25px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+footer h6{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+footer h6 hr{
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	width: 100px;
+	margin: 5px 0;
+}
+
+footer .row{
+	margin: 0 10px;
+}
+
+footer .col.m3.s12{
+	padding: 0 30px;
+}
+
+#reservasi{
+	min-height: 920px;
+	margin-top: 17.4px;
+	padding-top: 50px;
+	background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url(../../foto/bg-1.jpg);
+	background-size: cover;
+	background-position: 10%;
+}
+
+#reservasi i {
+	color: #fff;
+}
+
+#reservasi hr{
+	width: 100px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+#reservasi a button#jadwal{
+	letter-spacing: 5px;
+	box-shadow: none;
+	background: none;
+	border:1px solid #f44336;
+	transition: .5s;
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+#reservasi button#jadwal:hover{
+	background: #f44336;
+	transition: .5s;
+	width: 250px;
+}
+
+#reservasi textarea.materialize-textarea{
+	color: #fff;
+}
+
+#reservasi input[type=text]{
+	color: #fff;
+}
+
+#reservasi select{
+	color: #fff;
+}
+
+#reservasi small{
+	font-size: 10px;
+}
+
+#foto{
+	margin-top: 17.4px;
+	min-height: 600px;
+}
+
+#foto h3{
+	padding-top: 30px;
+}
+
+#bis {
+	margin-top: 20px;
+}
+
+#bis .kotak{
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+#bis .kotak h5{
+	border-bottom: 1px solid #000;
+	width: 103%;
+}
+
+#profile{
+	margin-top: 16px;
+	min-height: 1500px;
+}
+
+#status_penyewaan{
+	height: 20%;
+}
+
+#status_penyewaan .tabs{
+	margin-top: 17px;
+	background: none;
+}
+
+#status_penyewaan .tabs li a{
+	color: #ff0000;
+}
+
+#status_penyewaan .tabs li.active a{
+	background: #fff;
+}
+
+#status_penyewaan #status{
+	font-size: 17px;
+}
+
+#status_penyewaan #status button{
+	background: none;
+	box-shadow: none;
+	color: #ff0000;
+	border: 1px solid rgba(255,0,0,.7);
+	width: 100px;
+	transition: .6s;
+}
+
+#status_penyewaan #status button i{
+	opacity: 0;
+	color: #fff;
+	transform: translate(-100%,0);
+	transition: .6s;
+}
+
+#status_penyewaan #status button:hover{
+	background: rgba(255,0,0,.7);
+	color: #fff;
+	width: 110px;
+	transition: .6s;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
+}
+
+#status_penyewaan #status button:hover i{
+	opacity: 1;
+	transform: translate(0,0);
+	transition: .6s;
+}
+
+#editakun{
+	margin-top: 17px;
+}
+
+#editakun img{
+	border: 1px solid rgba(0,0,0,.7);
+	border-radius: 5px;
+}
